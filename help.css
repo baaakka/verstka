@@ -91,11 +91,14 @@ body{
     font-size: 15px;
     height: 30px;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    
+    margin-bottom: 15px;
+    letter-spacing: 2px;
 }
 
-
+.text{
+    font-size: 14px;
+    font-weight: 500;
+}
 
 .fas{
 
@@ -106,8 +109,6 @@ body{
 .item{
     display: block;
     margin-bottom: 13px;
-    font-size: 14px;
-    font-weight: 500;
     text-decoration: none;
     color: black;
 }
@@ -120,13 +121,14 @@ body{
     align-items: center;
     text-align: center;
     overflow: hidden;
+    margin-bottom: 40px;
 }
 
 .left-column__education1{
     max-width: 150px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px; 
+    margin-bottom: 20px; 
 }
 
 .left-column__education__title{
@@ -137,6 +139,19 @@ body{
 }
 
 .left-column__education__text{
-    font-size: 13px;
     line-height: 20px;
+}
+
+.left-column__expertise{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.left-column__expertise__item{
+    margin-bottom: 25px;
+}
+
+.left-column__expertise__item:last-child{
+    margin-bottom: 50px;
 }
