@@ -78,9 +78,10 @@ body{
 
 .left-column__contacts{
     display: flex;
+    margin-bottom: 35px;
 }
 
-.left-column__contacts__title{
+.left-column__title{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,4 +110,33 @@ body{
     font-weight: 500;
     text-decoration: none;
     color: black;
+}
+
+.left-column__education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.left-column__education1{
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px; 
+}
+
+.left-column__education__title{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.left-column__education__text{
+    font-size: 13px;
+    line-height: 20px;
 }
