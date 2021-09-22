@@ -197,3 +197,42 @@ body{
 .right-column__profile{
     line-height: 20px;
 }
+
+.right-column__profile{
+    margin-bottom: 24px;
+}
+
+.right-column__work-experience{
+    margin-bottom: 40px;
+}
+
+.right-column__work-experience__title{
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin-bottom: 7px;
+}
+
+.right-column__work-experience__subtitle{
+    margin-bottom: 20px;
+}
+
+.right-column__work-experience__text{
+    line-height: 20px;
+}
+
+
+.right-column__list_element{
+    line-height: 20px;
+}
+
+.right-column__list_element:before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    margin: 0px 20px;
+    border-radius: 100px;
+    background-color: #000000;
+    display: inline-block;
+}
