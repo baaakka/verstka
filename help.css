@@ -1,0 +1,112 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+    background: url(img/photo-1579546929518-9e396f3cc809.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.column{
+    padding: 25px;
+    max-width: 1200px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.flex_container{
+    width: 100%;
+    display: flex;
+}
+
+.left-column{
+    display: flex;  
+    flex-direction: column;
+    background-color: #f3f5d7;
+    width: 25%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-column__container{
+    width: 202px;
+    overflow: hidden;
+}
+
+
+.left-column__img{
+    border: 1px solid #f3f5d7;
+    border-radius: 100px; 
+    margin-bottom: 40px;   
+}
+
+.left-column__contacts{
+    display: flex;
+}
+
+.left-column__contacts__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7  );
+    color: #fff;
+    font-size: 15px;
+    height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.fas{
+
+    font-size: 16px;
+    margin:0px 10px 10px 0px;
+}
+
+.item{
+    display: block;
+    margin-bottom: 13px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
