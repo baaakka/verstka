@@ -43,7 +43,11 @@ body{
 }
 
 .column{
+<<<<<<< HEAD
     padding: 25px;
+=======
+    padding: 30px;
+>>>>>>> right-column
     max-width: 1200px;
     background-color: #fff;
     margin: 0 auto;
@@ -150,7 +154,7 @@ body{
 
 .left-column__expertise__item{
     margin-bottom: 25px;
-}
+}   
 
 .left-column__expertise__item:last-child{
     margin-bottom: 50px;
