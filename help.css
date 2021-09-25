@@ -43,11 +43,7 @@ body{
 }
 
 .column{
-<<<<<<< HEAD
     padding: 25px;
-=======
-    padding: 30px;
->>>>>>> right-column
     max-width: 1200px;
     background-color: #fff;
     margin: 0 auto;
@@ -158,4 +154,84 @@ body{
 
 .left-column__expertise__item:last-child{
     margin-bottom: 50px;
+}
+
+.right-column{
+    width: 75%;
+    padding-left: 40px;
+}
+
+.right-title{
+    background-color: rgba(0, 0, 0, .7  );
+    height: 210px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 41px;
+    flex-wrap: wrap;
+}
+
+.right-column__title{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.right-column__subtitle{
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 0.8;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d1c7c7;
+}
+
+.right-column__profile{
+    line-height: 20px;
+}
+
+.right-column__profile{
+    margin-bottom: 24px;
+}
+
+.right-column__work-experience{
+    margin-bottom: 40px;
+}
+
+.right-column__work-experience__title{
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin-bottom: 7px;
+}
+
+.right-column__work-experience__subtitle{
+    margin-bottom: 20px;
+}
+
+.right-column__work-experience__text{
+    line-height: 20px;
+}
+
+
+.right-column__list_element{
+    line-height: 20px;
+}
+
+.right-column__list_element:before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    margin: 0px 20px;
+    border-radius: 100px;
+    background-color: #000000;
+    display: inline-block;
 }
