@@ -65,8 +65,8 @@ body{
 }
 
 .left-column__container{
-    width: 202px;
-    overflow: hidden;
+    max-width: 202px;
+    overflow: hidden;   
 }
 
 
@@ -111,6 +111,7 @@ body{
     margin-bottom: 13px;
     text-decoration: none;
     color: black;
+    overflow-wrap: break-word;
 }
 
 .left-column__education{
@@ -234,4 +235,29 @@ body{
     border-radius: 100px;
     background-color: #000000;
     display: inline-block;
+}
+
+@media(max-width:1200px){
+    .column{
+        max-width: 970px;
+    }
+}
+
+@media(max-width:992px){
+    .column{
+        max-width: 750px;
+    }
+    .left-column__container{
+        max-width: 150px ;
+        margin-top: -175px;
+    }
+    .left-column__img{
+        width: 150px;
+    }
+}
+
+@media(max-width:767px){
+    .column{
+        max-width: 500px;
+    }
 }
